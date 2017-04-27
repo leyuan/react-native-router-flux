@@ -12,7 +12,7 @@
     "test": "mocha --compilers js:babel-core/register --require react-native-mock/mock",
     "test:watch": "npm run test -- --watch",
     "eslint": "eslint index.js src/ test/; exit 0;",
-    "postinstall": "npm install"
+    "postinstall": "npm install; exit 0;"
   },
   "keywords": [
     "react-native",
